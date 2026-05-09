@@ -1,0 +1,27 @@
+name: Build APK
+on: [push, pull_request]
+
+工作:
+建立:
+连续的：Ubuntu-最新
+连续的：Ubuntu-最新:
+-uses: 操作/结帐@v4
+作/结帐@v4：操作/设置-Java@v4
+作/结帐@v4：操作/设置-Java@v4:
+java版: '17'
+分布: 'temurin'
+操作/上载工件@v4 使用：android-actions/setup-android@v2 操作/上载工件@v4 使用：android-actions/setup-android@v2
+操作/上载工件@v4使用跑：RRM-rf Dragonbones mnlama mmd FBX终端showerclient quickjs
+操作/上载工件@v4 使用：android-actions/setup-android@v2 操作/上载工件@v4 使用：android-actions/setup-android@v2 操settings.gradle.kts
+      - 跑: SED-i's/^include("：mnn")$/\/\/include("：mnn")/'ED-i
+S's/^include("：llama")$/\/\/include("：llama")/'settings.gradle.kts
+-跑: SED-i's/^include("：mmd")$/\/\/include("：mmd")/'settings.gradle.kts
+-跑: SED-i's/^include("：FBX")$/\/\/include("：FBX")/'settings.gradle.kts
+-跑: SED-i's/^include("：终端")$/\/\/包括("：终端")/'settings.gradle.kts
+-跑: SED-i's/^include("：淋浴客户端")$/\//\/包括("：淋浴客户端")/'settings.gradle.kts
+-跑: SED-i's/^include("：quickjs")$/\/\/include("：quickjs")/'settings.gradle.kts
+-跑: ./gradlew组件调试--无守护程序
+-uses: 操作/上载工件@v4
+和……一起:
+姓名: opit-debug-apk
+路径: app/build/outputs/apk/debug/app-debug.apk
